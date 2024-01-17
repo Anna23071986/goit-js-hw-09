@@ -101,7 +101,7 @@ body .sl-wrapper .sl-counter {
   letter-spacing: 0.04em;
 }
 
-button {
+button[type='submit'] {
   width: 95px;
   padding: 8px 16px;
   margin-top: 8px;
