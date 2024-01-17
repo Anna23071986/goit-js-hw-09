@@ -31,14 +31,7 @@ body {
 }
 
 .simple-lightbox {
-  background-color: #2e2f42cc; /* Замените #333 на желаемый цвет фона */
-}
-
-.sl-wrapper .sl-navigation .sl-next,
-.sl-wrapper .sl-navigation .sl-prev,
-.sl-wrapper button.sl-close,
-body .sl-wrapper .sl-counter {
-  color: #ffffff;
+  background-color: #2e2f42cc;
 }
 
 .feedback-form {
@@ -121,4 +114,12 @@ button[type='submit'] {
 
 button:hover {
   background-color: #6c8cff;
+}
+
+.sl-wrapper .sl-navigation .sl-next,
+.sl-wrapper .sl-navigation .sl-prev,
+.sl-wrapper button.sl-close,
+body .sl-wrapper .sl-counter {
+  color: #ffffff;
+  background-color: transparent;
 }
