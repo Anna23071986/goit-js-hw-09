@@ -56,32 +56,3 @@ input.addEventListener('focus', () => {
 input.addEventListener('blur', () => {
   input.placeholder = '';
 });
-
-// const parsedItem = JSON.parse(localStorage.getItem(localStorageKey));
-// form.addEventListener('input', toFillLocalStorage);
-// form.addEventListener('submit', toClearLocalStorage);
-
-// const field = form.elements;
-// field.message.value = parsedItem ? parsedItem.message : '';
-// field.email.value = parsedItem ? parsedItem.email : '';
-
-// function toFillLocalStorage() {
-//   const formValues = {
-//     email: field.email.value.trim(),
-//     message: field.message.value.trim(),
-//   };
-
-//   localStorage.setItem(localStorageKey, JSON.stringify(formValues));
-// }
-
-// function toClearLocalStorage(e) {
-//   e.preventDefault();
-//   if (field.message.value !== '' && field.email.value !== '') {
-//     console.log({
-//       email: field.email.value.trim(),
-//       message: field.message.value.trim(),
-//     });
-//     localStorage.removeItem(localStorageKey);
-//     form.reset();
-//   }
-// }
