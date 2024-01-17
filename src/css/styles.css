@@ -1,7 +1,18 @@
 body {
   margin: 0 auto;
-  padding: 24px 0;
   background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+}
+
+p {
+  padding: 0 20px;
+  margin: 20px auto;
+}
+
+ul {
+  margin: 20px 0;
+  padding: 0 40px;
 }
 
 .gallery {
@@ -36,7 +47,7 @@ body {
 
 .feedback-form {
   width: 360px;
-  margin: 20px auto;
+  margin: 0 auto;
   padding: 0 10px;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
@@ -54,7 +65,13 @@ body {
   margin-bottom: 8px;
 }
 
-.mark-form input {
+.mark-form input,
+.mark-form textarea {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   border-radius: 4px;
   border: 1px solid #808080;
   height: 40px;
@@ -65,14 +82,8 @@ body {
 }
 
 .mark-form textarea {
-  border-radius: 4px;
-  border: 1px solid #808080;
   height: 80px;
-  padding-left: 16px;
   padding-top: 16px;
-  background-color: transparent;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  outline: none;
   resize: none;
 }
 
