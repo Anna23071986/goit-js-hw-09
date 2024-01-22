@@ -2,6 +2,7 @@
 
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
+import { d } from 'simplelightbox';
 const list = document.querySelector('.gallery');
 
 const images = [
